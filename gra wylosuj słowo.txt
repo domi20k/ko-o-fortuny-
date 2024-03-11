@@ -1,0 +1,11 @@
+import random
+from os import system, name
+lista_słów_do_zgadnięcia = ["wakacje","sport","los","czytanie","morze"]
+
+
+def wybiesz_słowo(lista_słów):
+    wylosowane_słowo = random.choice(lista_słów)
+    return wylosowane_słowo
+
+
+print(wybiesz_słowo(lista_słów_do_zgadnięcia))
